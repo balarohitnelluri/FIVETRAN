@@ -14,7 +14,7 @@ my_git_repo_name:
       warehouse: FIVETRAN_WAREHOUSE
       schema: dbo
       threads: 8
-      client_session_keep_alive: False
+      client_session_keep_alive: TRUE
       query_tag: TABLE
       
 
