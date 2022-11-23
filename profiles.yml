@@ -1,0 +1,13 @@
+# example profiles.yml file
+my_git_repo_name:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      host: audwsqn-eo86859.snowflakecomputing.com
+      user: FIVETRAN_USER
+      password: password123
+      port: 443
+      dbname: FIVETRAN_DATABASE
+      schema: dbo
+      threads: 4
