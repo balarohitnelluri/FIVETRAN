@@ -2,10 +2,10 @@
 version: 2
 
 models:
-  - name: my_first_dbt_model
+  - name: JOBS
     description: "A starter dbt model"
     columns:
-      - name: id
+      - name: JOB
         description: "The primary key for this table"
         tests:
           - unique
