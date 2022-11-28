@@ -3,7 +3,7 @@ my_git_repo_name:
   outputs:
     dev:
       type: snowflake
-      account: audwsqn-eo86859
+      account: ynlwyky-ta05953
 
       # User/password auth
       user: FIVETRAN_USER
