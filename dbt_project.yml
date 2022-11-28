@@ -35,4 +35,4 @@ models:
   my_git_repo_name:
     # Config indicated by + and applies to all files under models/example/
     example:
-      +materialized: select
+      +materialized: default
