@@ -2,7 +2,7 @@
 version: 2
 
 models:
-  - name: jobs
+  - name: DIM_JOBS
     description: "A starter dbt model"
     columns:
       - name: JOB
