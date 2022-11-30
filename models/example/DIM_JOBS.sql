@@ -1,1 +1,1 @@
-call simple_stored_procedure_example()
+{{call_proc()}}
