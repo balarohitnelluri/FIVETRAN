@@ -1,8 +1,8 @@
 {{ config(
     materialized='call_proc',
     database='FIVETRAN_DATABASE',
-    schema = 'DBO',
-     )
+    schema = 'dbo',
+    pre_hook = "use schema {{ database }}.{{ schema }};"
+    )
 }}
-
-call simple_stored_procedure_example();
+call  "{{ database }}"."{{ schema }}".simple_stored_procedure_example();
