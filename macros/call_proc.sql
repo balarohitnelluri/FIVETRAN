@@ -1,4 +1,4 @@
-{% macro call_test_proc() %}
+{% macro call_proc() %}
 begin;
 use database {{ target.database }};
 use schema {{ target.schema }};
