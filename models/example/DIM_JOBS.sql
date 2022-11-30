@@ -1,1 +1,1 @@
-{{call_proc()}}
+{{call_proc}}
