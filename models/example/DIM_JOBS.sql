@@ -1,1 +1,1 @@
-  SELECT distinct job FROM FIVETRAN_DATABASE.DBO.EMP
+call simple_stored_procedure_example()
