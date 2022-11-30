@@ -3,4 +3,4 @@
     )
 }}
 
-call  SIMPLE_STORED_PROCEDURE_EXAMPLE();
+call simple_stored_procedure_example();
